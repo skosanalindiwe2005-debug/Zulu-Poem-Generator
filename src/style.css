@@ -59,6 +59,10 @@ a {
   border-radius: 6px;
 }
 
+.poem strong {
+  color: #ef0a84;
+}
+
 #poem {
   max-width: 60%;
   background: #ef0a84;
