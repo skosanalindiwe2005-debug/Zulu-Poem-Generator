@@ -23,10 +23,6 @@ function generatePoem(event) {
   let poemElement = document.querySelector("#poem");
   poemElement.style.display = "block";
 
-  console.log("Generating poem");
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: ${context}`);
-
   axios.get(apiUrl).then(displayPoem);
 }
 
